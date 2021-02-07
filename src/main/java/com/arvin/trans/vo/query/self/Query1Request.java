@@ -1,9 +1,10 @@
 package com.arvin.trans.vo.query.self;
 
-import com.arvin.trans.vo.query.self.BaseRequest;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class Query1Request extends BaseRequest {
     private String fooReqField;
 }
